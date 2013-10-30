@@ -2,7 +2,8 @@ Application.Directives.directive('deviceSelector', ['deviceService', function(de
     return {
         restrict: 'A',
         scope:{
-            ngModel: "="
+            ngModel: "=",
+            onChange: "&"
         },
         link: function(scope, element, attrs){
             var elem = $(element);
@@ -31,7 +32,9 @@ Application.Directives.directive('deviceSelector', ['deviceService', function(de
 
             deviceService.getDevices().then(function(response){
                 devices = response;
-                elem.select2(select2Options);
+                elem.select2(select2Options).on('change', function(e){
+                    scope.onChange({data: elem.data});
+                });
             });
 
 

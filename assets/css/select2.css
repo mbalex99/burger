@@ -393,7 +393,7 @@ disabled look for disabled choices in the results dropdown
 }
 
 .select2-more-results.select2-active {
-    background: #f4f4f4 url('select2-spinner.gif') no-repeat 100%;
+    background: #f4f4f4 url('../img/select2-spinner.gif') no-repeat 100%;
 }
 
 .select2-more-results {

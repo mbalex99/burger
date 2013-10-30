@@ -11,7 +11,7 @@ Application.Directives.directive('countrySelector', ['countryService', function(
 
             var select2Options = {
                 minimumInputLength: 1,
-                placeholder: "Select a Device",
+                placeholder: "Select a Country",
                 multiple: true,
                 query: function(query){
                     var data = {results: []};
@@ -35,11 +35,15 @@ Application.Directives.directive('countrySelector', ['countryService', function(
                 }
             };
 
-
-
             countryService.getCountries().then(function(response){
                 countries = response;
                 elem.select2(select2Options);
+
+                elem.select2().on('change', function(e){
+
+                    scope.onChange({data: elem.select2("data")});
+
+                });
             });
 
 

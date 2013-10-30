@@ -1,13 +1,13 @@
-var database = require('../configs/database');
+var bugRepository = require('../dataAccess/bugRepository');
 
 
 var bugsController = {
     getBugs: function(req, res){
-        database.getBugs(function(err, results){
-            if(err) {res.send(500); return;}
-            res.send(results);
+        bugRepository.getBugs().then(function(result){
+            res.send(result);
+        }, function(err){
+            res.send(err);
         });
-
     },
     getBugsById: function(req, res){
         res.send({

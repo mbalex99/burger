@@ -22,9 +22,10 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="device in devices" style="cursor: pointer" ng-mouseover="switchFocusedDevice(device)">
-                    <td>{{device.deviceId}}</td>
-                    <td>{{device.description}}</td>
+                <tr ng-repeat="bug in bugs" style="cursor: pointer" ng-mouseover="switchFocusedBug(bug)">
+                    <td>{{bug.bugId}}</td>
+                    <td>{{bug.deviceId}}</td>
+                    <td>{{bug.testerId}}</td>
                 </tr>
             </tbody>
         </table>
