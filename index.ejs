@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="application">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="uTest App">
+    <meta name="author" content="Max Alexander">
+
+    <title>Burger by Max Alexander</title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="/assets/css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+    <link href="/assets/css/select2.css" rel="stylesheet">
+    <link href="/assets/css/burger.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- Sidebar -->
+<ng-include src="'/partials/sidebar.html'"></ng-include>
+
+<div id="page-wrapper">
+    <ng-view></ng-view>
+</div><!-- /#wrapper -->
+
+</div>
+<!-- Bootstrap core JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="scripts/vendor/bootstrap.js"></script>
+<!-- Page Specific Plugins -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+<!-- Angular Components -->
+<script src="/scripts/vendor/angular.min.js"></script>
+<script src="/scripts/vendor/angular-route.min.js"></script>
+<script src="/scripts/vendor/angular-animate.min.js"></script>
+
+
+<!--Third Party Scripts -->
+<script src="/scripts/vendor/select2.min.js"></script>
+
+<!-- Client Side Scripts -->
+<script src="/scripts/app/Application.js"></script>
+
+<!-- Client Side Controllers -->
+<script src="/scripts/app/controllers/DashboardCtrl.js"></script>
+<script src="/scripts/app/controllers/SidebarCtrl.js"></script>
+<script src="/scripts/app/controllers/TestersCtrl.js"></script>
+<script src="/scripts/app/controllers/DevicesCtrl.js"></script>
+<script src="/scripts/app/controllers/BugsCtrl.js"></script>
+
+<!-- Client Side Services -->
+<script src="/scripts/app/services/bugService.js"></script>
+<script src="/scripts/app/services/deviceService.js"></script>
+<script src="/scripts/app/services/testerService.js"></script>
+<script src="/scripts/app/services/countryService.js"></script>
+
+<!-- Client Side Directives -->
+<script src="/scripts/app/directives/deviceSelector.js"></script>
+<script src="/scripts/app/directives/countrySelector.js"></script>
+
+</body>
+</html>

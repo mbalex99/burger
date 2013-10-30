@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h1><i class="fa fa-bug"></i> Bugs
+            <small> list of all bugs</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="icon-dashboard"></i> Bugs</a></li>
+        </ol>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-lg-8">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>BugId</th>
+                    <th>Device</th>
+                    <th>Tester</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="device in devices" style="cursor: pointer" ng-mouseover="switchFocusedDevice(device)">
+                    <td>{{device.deviceId}}</td>
+                    <td>{{device.description}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

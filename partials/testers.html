@@ -1,0 +1,65 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h1><i class="fa fa-group"></i> Testers
+            <small> list of all testers</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="icon-dashboard"></i> Testers</a></li>
+        </ol>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-10">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <input type="hidden"  style="width: 500px;" device-selector />
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" style="width: 500px;" country-selector />
+                    </div>
+                    <button type="button" class="btn btn-primary"><i class="fa fa-search"></i> Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-2">
+        <div class="thumbnail">
+            <img ng-src="{{focusedTester.pictureUrl}}" alt="...">
+            <div class="caption">
+                <h3>{{focusedTester.firstName}} {{focusedTester.lastName}}</h3>
+                <p>
+                    {{focusedTester.country}}
+                    {{focusedTester.lastLogin | date:'medium'}}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8">
+        <table class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                <th>TesterId</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Country</th>
+                <th>Last Login</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="tester in testers" ng-click="switchFocusedTester(tester)" style="cursor: pointer;">
+                <td>{{tester.testerId}}</td>
+                <td>{{tester.firstName}}</td>
+                <td>{{tester.lastName}}</td>
+                <td>{{tester.country}}</td>
+                <td>{{tester.lastLogin | date:'medium'}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

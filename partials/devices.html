@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h1><i class="fa fa-mobile"></i> Devices
+            <small> list of all devices</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="icon-dashboard"></i> Devices</a></li>
+        </ol>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="thumbnail">
+            <img ng-src="{{focusedDevice.pictureUrl}}" alt="...">
+            <div class="caption">
+                <h3>{{focusedDevice.description}}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>DeviceId</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="device in devices" style="cursor: pointer" ng-mouseover="switchFocusedDevice(device)">
+                    <td>{{device.deviceId}}</td>
+                    <td>{{device.description}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
