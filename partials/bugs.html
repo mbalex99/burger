@@ -12,7 +12,8 @@
 
 
 <div class="row">
-    <div class="col-lg-8">
+
+    <div class="col-lg-4">
         <table class="table table-bordered table-hover">
             <thead>
                 <tr>
@@ -22,12 +23,37 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="bug in bugs" style="cursor: pointer" ng-mouseover="switchFocusedBug(bug)">
+                <tr ng-repeat="bug in bugs" style="cursor: pointer" ng-mouseover="drillDownBug(bug)">
                     <td>{{bug.bugId}}</td>
                     <td>{{bug.deviceId}}</td>
                     <td>{{bug.testerId}}</td>
                 </tr>
             </tbody>
         </table>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Tester {{focusedTester.firstName}} {{focusedTester.lastName}}</h3>
+            </div>
+            <div class="panel-body">
+                <img ng-src="{{focusedTester.pictureUrl}}"/>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Device {{focusedDevice.description}}</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img ng-src="{{focusedDevice.pictureUrl}}"/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </div>

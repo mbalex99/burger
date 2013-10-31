@@ -22,15 +22,10 @@ var testersController = {
 
     },
     getTesterById: function(req, res){
-        console.log('Attempting to find a tester with Id'+ req.params.testerId);
-        database.getTesterById(req.params.testerId, function(err, results){
-            if(err) {res.send(500); return;}
-
-            if(results.length == 1){
-                res.send(results[0]);
-            }else{
-                res.send(results);
-            }
+        testerRepository.getTesterById(req.params.testerId).then(function(tester){
+            res.send(tester);
+        }, function(err){
+            res.send(err);
         });
     }
 };

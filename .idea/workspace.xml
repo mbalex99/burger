@@ -23,20 +23,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deviceSelector.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/app/directives/deviceSelector.js">
+      <file leaf-file-name="countrySelector.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/app/directives/countrySelector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="720">
+            <state line="36" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countrySelector.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/app/directives/countrySelector.js">
+      <file leaf-file-name="testers.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/testers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="19" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.7299509" vertical-offset="229" max-vertical-offset="855">
+            <state line="31" column="61" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-7.5833335" vertical-offset="283" max-vertical-offset="1080">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bugs.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partials/bugs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="39" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.3867121" vertical-offset="298" max-vertical-offset="975">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="70" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-21.708334" vertical-offset="1039" max-vertical-offset="1920">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BugsCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/app/controllers/BugsCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="17" selection-start="1062" selection-end="1062" vertical-scroll-proportion="-6.0833335" vertical-offset="139" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testerService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/app/services/testerService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="6" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deviceService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/app/services/deviceService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testersController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/testersController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="29" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testerRepository.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataAccess/testerRepository.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="25" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding>
+                <element signature="e#140#1320#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,22 +127,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/dataAccess/burgerDatabase.js" />
-        <option value="$PROJECT_DIR$/dataAccess/deviceRepository.js" />
-        <option value="$PROJECT_DIR$/controllers/devicesController.js" />
-        <option value="$PROJECT_DIR$/controllers/countriesController.js" />
         <option value="$PROJECT_DIR$/dataAccess/countryRepository.js" />
         <option value="$PROJECT_DIR$/controllers/homeController.js" />
-        <option value="$PROJECT_DIR$/controllers/testersController.js" />
-        <option value="$PROJECT_DIR$/dataAccess/testerRepository.js" />
         <option value="$PROJECT_DIR$/dataAccess/bugRepository.js" />
         <option value="$PROJECT_DIR$/controllers/bugsController.js" />
-        <option value="$PROJECT_DIR$/scripts/app/controllers/BugsCtrl.js" />
-        <option value="$PROJECT_DIR$/partials/bugs.html" />
-        <option value="$PROJECT_DIR$/partials/testers.html" />
         <option value="$PROJECT_DIR$/assets/css/select2.css" />
         <option value="$PROJECT_DIR$/scripts/app/directives/deviceSelector.js" />
         <option value="$PROJECT_DIR$/scripts/app/directives/countrySelector.js" />
+        <option value="$PROJECT_DIR$/partials/dashboard.html" />
+        <option value="$PROJECT_DIR$/partials/testers.html" />
+        <option value="$PROJECT_DIR$/partials/sidebar.html" />
+        <option value="$PROJECT_DIR$/scripts/app/controllers/BugsCtrl.js" />
+        <option value="$PROJECT_DIR$/scripts/app/services/testerService.js" />
+        <option value="$PROJECT_DIR$/scripts/app/services/deviceService.js" />
+        <option value="$PROJECT_DIR$/dataAccess/testerRepository.js" />
+        <option value="$PROJECT_DIR$/controllers/testersController.js" />
+        <option value="$PROJECT_DIR$/partials/bugs.html" />
       </list>
     </option>
   </component>
@@ -130,61 +206,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,38 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="burger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,36 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataAccess/burgerDatabase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09819967" vertical-offset="0" max-vertical-offset="611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="37" selection-end="37" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataAccess/deviceRepository.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="1" selection-start="939" selection-end="939" vertical-scroll-proportion="0.63829786" vertical-offset="0" max-vertical-offset="611">
-          <folding>
-            <element signature="e#309#465#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configs/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="8" selection-start="1989" selection-end="2862" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1560">
@@ -428,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataAccess/testerRepository.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="134" selection-start="383" selection-end="383" vertical-scroll-proportion="0.15050167" vertical-offset="45" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataAccess/bugRepository.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="60" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
@@ -446,39 +413,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/testersController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding>
-            <element signature="e#673#1038#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/bugsController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="5" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/app/controllers/BugsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/bugs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="72" selection-start="252" selection-end="252" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/testers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="29" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-11.958333" vertical-offset="478" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
@@ -490,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/app/directives/deviceSelector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/devices.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="37" selection-start="737" selection-end="737" vertical-scroll-proportion="0.6132879" vertical-offset="0" max-vertical-offset="645">
@@ -504,9 +434,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app/directives/deviceSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/app/directives/countrySelector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.7299509" vertical-offset="229" max-vertical-offset="855">
+        <state line="36" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app/controllers/BugsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app/services/testerService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app/services/deviceService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAccess/testerRepository.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="25" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding>
+            <element signature="e#140#1320#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/testersController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="29" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="70" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-21.708334" vertical-offset="1039" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="17" selection-start="1062" selection-end="1062" vertical-scroll-proportion="-6.0833335" vertical-offset="139" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/testers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="61" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-7.5833335" vertical-offset="283" max-vertical-offset="1080">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/bugs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="39" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.3867121" vertical-offset="298" max-vertical-offset="975">
           <folding />
         </state>
       </provider>

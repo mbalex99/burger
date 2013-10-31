@@ -44,11 +44,11 @@ exports.getTesters = function(params){
     return deferred.promise;
 };
 
-exports.getDeviceById = function(deviceId){
+exports.getTesterById = function(testerId){
     var deferred = q.defer();
     var connection = burgerDatabase.connection();
     connection.connect();
-    connection.query("SELECT * FROM devices WHERE deviceId = ?", deviceId, function(err, result){
+    connection.query("SELECT * FROM testers WHERE testerId = ?", testerId, function(err, result){
         if(err){
             deferred.reject(err);
         }else
